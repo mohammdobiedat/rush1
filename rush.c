@@ -1,9 +1,7 @@
 void ft_putchar(char c);
-
 void print_line(int x, char start, char mid, char end)
 {
 	int i;
-
 	if (x <= 0)
 		return;
 	ft_putchar(start);
@@ -17,11 +15,9 @@ void print_line(int x, char start, char mid, char end)
 		ft_putchar(end);
 	ft_putchar('\n');
 }
-
 void rush(int x, int y)
 {
 	int j;
-
 	if (x <= 0 || y <= 0)
 		return;
 	print_line(x, 'A', 'B', 'C');
